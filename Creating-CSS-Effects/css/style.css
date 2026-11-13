@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+@font-face{
+    font-family: Trirong; /*Trirong font from google fonts*/
+    src: url(https://fonts.googleapis.com/css?family=Trirong);
+}
 /*NAVBAR*/
 .nav-bar{
     position:sticky;
@@ -22,7 +27,7 @@ ul{
 
 a{
     display: block;
-    font-family: Calibri, sans-serif;
+    font-family: Trirong, serif; 
     font-size: 23px;
     font-weight: 600;
     color: white;
@@ -110,6 +115,25 @@ footer{
     font-weight: 400;
     color: rgb(228, 159, 0);
     text-align: center;
+}
+
+/*CAPTIONS*/
+.picture-caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Trirong, sans-serif;
+    Font-size: 23px;
+    font-weight: 200;
+    margin-top: 10px;
+    transition: 0.3s ease-out;
+}
+
+.picture-caption:hover{
+    color: rgb(228, 159, 0);
+    background-color:#363636;
+    Font-size: 30px;
+    transition: 0.25s ease-in;
 }
 
 /*IMAGES*/
