@@ -6,11 +6,16 @@
         <meta name="description" content="Your friendly neighborhood Pet Shop">
         <meta name="keywords" content="home, pet, store, shop, food, pets, dogs, cats, rabbits, rodents, fish, reptiles">
         <meta name="author" content="Caedmon Webb Design">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
-            <ul>
+        <nav class="nav-bar">
+            <ul id="nav-border">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
@@ -31,50 +36,68 @@
                 <p style= "text-align: right;">– John Muir</span></p>
             </blockquote>
             <div>
-                <h1>Welcome to The Pet Shop!</h1>
+                <h1 class="animate-text">Welcome to The Pet Shop!</h1>
             </div>
         </header>
         <!--PET IMAGES-->
         <section>
-             <div>
+             <div class="container">
                 <h2>Choose a Pet!</h2>
                 <div>
                     <!--CAT IMAGE-->
-                    <div id="cat">
+                    <div id="cat" class="column">
+                        <div class="image-container">
                         <h3>Cats & Kittens</h3>
                         <img src="images/cat.jpg" alt="Picture of kittens">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--DOG IMAGE-->
-                    <div id="dog">
+                    <div id="dog" class="column">
+                        <div class="image-container">
                         <h3>Dogs & Puppies</h3>
                         <img src="images/dog.jpg" alt="Picture of dogs">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--RABBIT IMAGE-->
-                    <div id="rabbit">
+                    <div id="rabbit" class="column">
+                        <div class="image-container">
                         <h3>Rabbits</h3>
                         <img src="images/rabbits.jpg" alt="Picture of rabbits">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--GUINEA PIGS IMAGE-->
-                    <div id="guineapig">
+                    <div id="guineapig" class="column">
+                        <div class="image-container">
                         <h3>Guinea Pigs</h3>
                         <img src="images/guineapigs.jpg" alt="Picture of guinea pigs">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--FISH IMAGE-->
-                    <div id="fish">
+                    <div id="fish" class="column">
+                        <div class="image-container">
                         <h3>Fish</h3>
                         <img src="images/fish.jpg" alt="Picture of fish">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--REPTILE IMAGE-->
-                    <div id="reptile">
+                    <div id="reptile" class="column">
+                        <div class="image-container">
                         <h3>Reptiles</h3>
                         <img src="images/BeardedDragon.jpg" alt="Picture of a bearded dragon">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
              </div>   
         </section>
         <!--VIDEOS-->
         <section>
             <!--DOG VIDEO-->
-            <div id="videos">
+            <div id="videos" class="container">
                 <h3>Videos</h3>
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4" frameborder="0" allowfullscreen></iframe>
             </div>
