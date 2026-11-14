@@ -1,0 +1,35 @@
+/*Import Roboto font from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+
+/*HEADERS*/
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size:xx-large;
+}
+
+h2{
+    font-size:x-large;
+}
+
+h3{
+    font-size:larger;
+}
+
+/*IMAGES*/
+img{
+    width:500px;
+    height:auto;
+}
+/*FORMS*/
+form input{
+    width:auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    border: 3px solid rgb(85, 85, 85);
+    border-radius: 3px;
+    margin: 10px 12px 10px 0;
+    box-sizing: border-box;
+}
